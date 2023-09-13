@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero {
+  background-image: linear-gradient(
+      to right bottom,
+      #0066fff6,
+      #061d81ca,
+      #2ea1eeef
+    ),
+    url("https://img.freepik.com/free-photo/full-shot-man-drinking-water_23-2149729053.jpg?size=626&ext=jpg&ga=GA1.2.1083463234.1681973259&semt=ais");
+  background-position: center;
+}
